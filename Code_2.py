@@ -87,17 +87,17 @@ while True:
     print("4. Remove Student Record")
     print("5. Exit")
 
-    choice = input("\nEnter choice: ")
+    ch = input("\nEnter choice: ")
 
-    if choice == "1":
+    if ch == "1":
         school.new_admission()
-    elif choice == "2":
+    elif ch == "2":
         school.view_student()
-    elif choice == "3":
+    elif ch == "3":
         school.update_student()
-    elif choice == "4":
+    elif ch == "4":
         school.remove_student()
-    elif choice == "5":
+    elif ch == "5":
         break
     else:
-        print("Invalid choice!")
+        print("Invalid choice!!")
